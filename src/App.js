@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../src/App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // https://gateway.marvel.com:443/v1/public/characters?apikey=c06680b7c7eb22f2cdbf95b01be88583
 // private key: 8ef24f9cfc843d287fb89485a0285218463fa2a0
