@@ -11,6 +11,7 @@ f. RUN npm run build: Construye la aplicación React para producción.
 g. RUN npm install -g serve: Instala serve globalmente para servir la aplicación.
 h. EXPOSE 3000: Expone el puerto 3000.
 i. CMD ["serve", "-s", "build", "-l", "3000"]: Comando por defecto para iniciar el contenedor.
+
 📁 Construir la imagen Docker
 Para construir la imagen Docker de este proyecto, utiliza el siguiente comando:
 
